@@ -160,7 +160,7 @@ public class UpiIndiaPlugin implements FlutterPlugin, MethodCallHandler, Activit
             else uriString += "&cu="+Uri.encode(currency);
             if (url != null) uriString += "&url=" + Uri.encode(url);
             if (merchantId != null) uriString += "&mc" + Uri.encode(merchantId);
-            uriString += "&mode=04";
+            uriString += "&mode=02";
 
             Uri uri = Uri.parse(uriString);
 
